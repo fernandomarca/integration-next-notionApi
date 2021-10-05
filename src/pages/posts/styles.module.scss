@@ -1,0 +1,25 @@
+.pagePostContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
+  > h1 {
+    margin-bottom: 20px;
+    color: var(--blue-500);
+    font-size: 2.5rem;
+  }
+  > h2 {
+    margin-bottom: 50px;
+  }
+  > div {
+    & + div {
+      margin-bottom: 10px;
+    }
+  }
+}
+.divider {
+  border: 1px solid;
+  width: 100%;
+  margin-bottom: 85px;
+}
